@@ -64,6 +64,9 @@ body {
 
     li {
         margin-top: 10px;
+        padding-left:36px;
+        background-image: url('./assets/images/icon-list.svg');
+        background-repeat: no-repeat; 
     }
 }
 
