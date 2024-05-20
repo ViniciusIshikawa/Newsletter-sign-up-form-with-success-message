@@ -59,12 +59,16 @@ body {
 }
 
 .card__informations .card__form {
+    margin-top: 2rem;
+
     display: flex;
     flex-direction: column;
 
     label {
         font-family: var(--bold-font-family);
         font-size: 14px;
+
+        margin-bottom: 0.4rem;
     }
 
     input {
@@ -72,5 +76,14 @@ body {
         border-radius: 10px;
 
         padding: 15px;
+    }
+
+    button {
+        background-color: var(--main-button-color);
+        color: var(--white);
+        border-radius: 7px;
+
+        padding: 13px;
+        margin-top: 1.5rem;        
     }
 }
