@@ -44,3 +44,21 @@ body {
 
     border-radius: 25px;
 }
+
+.card__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 100%;
+}
+
+.card__informations {
+    padding: 0 1.6rem 0 1.6rem;
+}
+
+.card__informations .card__form {
+    display: flex;
+    flex-direction: column;
+}
