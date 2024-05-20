@@ -20,7 +20,7 @@
 
 h1 {
     font-family: var(--bold-font-family);
-    font-size: 2.6rem;
+    font-size: 3.6rem;
 }
 
 body {
@@ -39,7 +39,7 @@ body {
 .card {
     background-color: var(--white);
 
-    width: 60rem;
+    width: 58rem;
     height: 39rem;
 
     border-radius: 25px;
@@ -55,7 +55,16 @@ body {
 }
 
 .card__informations {
-    padding: 0 1.6rem 0 1.6rem;
+    width: 25.2rem;
+    margin-left: 2rem;
+
+    h1 {
+        margin-bottom: 1rem;
+    }
+
+    li {
+        margin-top: 10px;
+    }
 }
 
 .card__informations .card__form {
